@@ -1,0 +1,201 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 30,
+      "department": "Engineering",
+      "skills": ["JavaScript", "React", "Node.js"],
+      "projects": [
+        {
+          "name": "Project Alpha",
+          "role": "Lead Developer",
+          "status": "Completed"
+        },
+        {
+          "name": "Project Beta",
+          "role": "Consultant",
+          "status": "Ongoing"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "age": 25,
+      "department": "Marketing",
+      "skills": ["SEO", "Content Marketing", "Social Media"],
+      "projects": [
+        {
+          "name": "Campaign Delta",
+          "role": "Coordinator",
+          "status": "Completed"
+        },
+        {
+          "name": "Campaign Omega",
+          "role": "Strategist",
+          "status": "In Planning"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Emily Johnson",
+      "age": 35,
+      "department": "Finance",
+      "skills": ["Budgeting", "Forecasting", "Tax Preparation"],
+      "projects": [
+        {
+          "name": "Audit Q1",
+          "role": "Manager",
+          "status": "Completed"
+        },
+        {
+          "name": "Revenue Analysis",
+          "role": "Analyst",
+          "status": "Ongoing"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "P001",
+      "name": "Widget A",
+      "category": "Gadgets",
+      "price": 19.99,
+      "stock": 150,
+      "suppliers": [
+        {
+          "name": "Supplier X",
+          "location": "New York"
+        },
+        {
+          "name": "Supplier Y",
+          "location": "California"
+        }
+      ]
+    },
+    {
+      "id": "P002",
+      "name": "Widget B",
+      "category": "Gadgets",
+      "price": 29.99,
+      "stock": 80,
+      "suppliers": [
+        {
+          "name": "Supplier Z",
+          "location": "Texas"
+        }
+      ]
+    },
+    {
+      "id": "P003",
+      "name": "Widget C",
+      "category": "Accessories",
+      "price": 9.99,
+      "stock": 300,
+      "suppliers": [
+        {
+          "name": "Supplier X",
+          "location": "New York"
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "O1001",
+      "customer": "Alice Brown",
+      "date": "2023-12-01",
+      "items": [
+        {
+          "product_id": "P001",
+          "quantity": 2
+        },
+        {
+          "product_id": "P003",
+          "quantity": 5
+        }
+      ],
+      "status": "Shipped"
+    },
+    {
+      "id": "O1002",
+      "customer": "Bob White",
+      "date": "2023-12-03",
+      "items": [
+        {
+          "product_id": "P002",
+          "quantity": 1
+        }
+      ],
+      "status": "Processing"
+    },
+    {
+      "id": "O1003",
+      "customer": "Charlie Black",
+      "date": "2023-12-05",
+      "items": [
+        {
+          "product_id": "P003",
+          "quantity": 10
+        }
+      ],
+      "status": "Cancelled"
+    }
+  ],
+  "settings": {
+    "company_name": "Tech Solutions Inc.",
+    "address": {
+      "street": "1234 Elm Street",
+      "city": "Metropolis",
+      "state": "NY",
+      "zipcode": "10001"
+    },
+    "contact": {
+      "phone": "555-123-4567",
+      "email": "info@techsolutions.com"
+    },
+    "working_hours": {
+      "monday": "9:00 AM - 5:00 PM",
+      "tuesday": "9:00 AM - 5:00 PM",
+      "wednesday": "9:00 AM - 5:00 PM",
+      "thursday": "9:00 AM - 5:00 PM",
+      "friday": "9:00 AM - 5:00 PM",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "holidays": ["2023-12-25", "2023-01-01", "2023-07-04"]
+  },
+  "analytics": {
+    "monthly_sales": [
+      {
+        "month": "January",
+        "revenue": 15000,
+        "expenses": 8000
+      },
+      {
+        "month": "February",
+        "revenue": 17000,
+        "expenses": 9000
+      },
+      {
+        "month": "March",
+        "revenue": 20000,
+        "expenses": 9500
+      }
+    ],
+    "traffic": {
+      "website_visits": {
+        "daily": [500, 600, 700, 650, 620, 590, 580],
+        "monthly": 18500
+      },
+      "social_media_engagement": {
+        "facebook": 1200,
+        "twitter": 800,
+        "instagram": 950
+      }
+    }
+  }
+}
